@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>My Todo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body onload="get_all_list();">
+
+<div class="container">
+    <h1>To-Do List</h1>
+    <div class="input-area">
+        <form method="post" name="todo_form">
+            <textarea name="input_field" id="input_field" placeholder="Write Something"></textarea>
+            <br><br>
+            <input type="button" name="add_btn" id="add_btn" onclick="add_something();" value="Add">
+            <input type="hidden" name="position" value="">
+        </form>
+    </div>
+    <div class="output-area">
+        <span id="display_output"></span>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

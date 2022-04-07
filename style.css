@@ -1,0 +1,67 @@
+*{
+    text-align: center;
+
+}
+
+.container{
+   margin-top: 100px;
+  
+}
+textarea{
+    resize: vertical;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline-style: none;
+}
+
+input[type="button"]{
+    padding: 10px 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+input[type="button"]:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.output-area{
+    margin: 0 auto;
+    width: 450px;
+    /* background-color: rgb(217, 252, 235); */
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+table{
+    border-collapse: collapse;
+    width:100%;
+   
+}
+
+table tr .hover_todo:hover{
+    background-color: rgb(196, 241, 220);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.tbl_head{
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+}
+a:hover{
+    background-color: black;
+    color:white!important;
+    border-radius: 5px;
+}
+
