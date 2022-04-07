@@ -1,10 +1,11 @@
-
+// creating empty array for our todo list
 let todo_list_array =[];
 
 function add_something(){
     let form = document.todo_form;
     let todo = form.input_field.value;
     let position = form.position.value;
+//     checking wheather the input field is empty or not
     if(todo==""){
         alert("Please Write Something!");
         return false;
